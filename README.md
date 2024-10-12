@@ -50,11 +50,41 @@ El flujo de trabajo básico con Git consiste en:
 ```
 
 ```code
-
+git add .
 ```
 
 ```code
+git commit -m "Añadido capítulo 2"
+[main a9c6e13] Añadido capítulo 2
+ 2 files changed, 45 insertions(+)
+ create mode 100644 capitulos/capitulo2.txt
+```
 
+```code
+git log
+commit a9c6e13733c44e3525cd733f33f8c580c48e5379 (HEAD -> main)
+Author: AdrianRoguez <adriandam2025@gmail.com>
+Date:   Thu Oct 10 18:40:09 2024 +0100
+
+    Añadido capítulo 2
+
+commit 850c7cfd0ac53be5886c460fdc7f84a0273af053
+Author: AdrianRoguez <adriandam2025@gmail.com>
+Date:   Thu Oct 10 18:30:24 2024 +0100
+
+    Añadido capítulo 1.
+
+commit 26e674563fe66c6be68ab4a9223134592a3491c5 (origin/main, origin/HEAD)
+Author: adrianroguez <sterbenthereaper@gmail.com>
+Date:   Thu Oct 10 17:55:55 2024 +0100
+
+    Initial commit
+```
+## Ejercicio 3
+
+```code
+cat capitulos/capitulo3.txt 
+Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas.
 ```
 
 ```code
