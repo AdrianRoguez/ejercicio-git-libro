@@ -88,6 +88,72 @@ Git permite la creación de ramas lo que permite tener distintas versiones del m
 ```
 
 ```code
+git add .
+```
+
+```code
+git commit -m "Añadido capítulo 3"
+[main 2492158] Añadido capítulo 3
+ 2 files changed, 31 insertions(+)
+ create mode 100644 capitulos/capitulo3.txt
+adrianssd@adrianssd:~/Descargas/ejercicio-git-libro$ git log
+commit 249215813daf01873e368a37c7915a720ecbd8c8 (HEAD -> main)
+Author: AdrianRoguez <adriandam2025@gmail.com>
+Date:   Sun Oct 13 00:09:58 2024 +0100
+
+    Añadido capítulo 3
+
+commit a9c6e13733c44e3525cd733f33f8c580c48e5379
+Author: AdrianRoguez <adriandam2025@gmail.com>
+Date:   Thu Oct 10 18:40:09 2024 +0100
+
+    Añadido capítulo 2
+
+commit 850c7cfd0ac53be5886c460fdc7f84a0273af053
+Author: AdrianRoguez <adriandam2025@gmail.com>
+Date:   Thu Oct 10 18:30:24 2024 +0100
+
+    Añadido capítulo 1.
+
+commit 26e674563fe66c6be68ab4a9223134592a3491c5 (origin/main, origin/HEAD)
+Author: adrianroguez <sterbenthereaper@gmail.com>
+Date:   Thu Oct 10 17:55:55 2024 +0100
+
+    Initial commit
+```
+
+Ejercicio 4
+
+```code
+cat capitulos/índice.txt 
+Indice de los cápitulos, con conceptos avanzados de git
+```
+
+```code
+git add .
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
 
 ```
 
