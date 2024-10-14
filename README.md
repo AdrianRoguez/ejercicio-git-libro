@@ -145,6 +145,47 @@ git annotate índice.txt
 60dd9adc        (AdrianRoguez   2024-10-13 00:19:57 +0100       1)Indice de los cápitulos, con conceptos avanzados de git
 ```
 
+## Ejercicio 5
+
+```code
+git branch bibliografia
+```
+
+```code
+git branch -av
+  bibliografia        e2c45b5 Añadido el índice
+* main                e2c45b5 [adelante 1] Añadido el índice
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main 60dd9ad Se crea el indice.
+```
+
+## Ejercicio 6
+
+```code
+cat capitulos/capitulo4.txt 
+En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
 ```code
 
 ```
