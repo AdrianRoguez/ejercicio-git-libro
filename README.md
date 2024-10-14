@@ -284,19 +284,22 @@ git log --graph --all --oneline
 ## Ejercicio 9
 
 ```code
-
+git branch bibliografia
 ```
 
 ```code
-
+git checkout bibliografia
+Cambiado a rama 'bibliografia'
 ```
 
 ```code
-
+cat bibliografia.txt 
+Chacon, S. and Straub, B. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
 ```
 
 ```code
-
+git add .
 ```
 
 ```code
