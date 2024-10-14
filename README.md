@@ -191,11 +191,13 @@ git log --graph --all --oneline
 ## Ejercicio 7
 
 ```code
-
+git checkout bibliografia 
+Cambiado a rama 'bibliografia'
 ```
 
 ```code
-
+cat bibliografia.txt 
+Chacon, S. and Straub, B. Pro Git. Apress.
 ```
 
 ```code
