@@ -303,6 +303,28 @@ git add .
 ```
 
 ```code
+git commit -a -m "Añadida nueva referencia bibliográfica."
+[bibliografia e539a91] Añadida nueva referencia bibliográfica.
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
 
 ```
 
