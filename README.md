@@ -201,6 +201,44 @@ Chacon, S. and Straub, B. Pro Git. Apress.
 ```
 
 ```code
+git add .
+```
+
+```code
+git commit -m "Añadida primera referencia bibliográfica."
+[bibliografia 72661bc] Añadida primera referencia bibliográfica.
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+ create mode 100644 bibliografia.txt
+```
+
+```code
+git log --graph --all --oneline
+* 72661bc (HEAD -> bibliografia) Añadida primera referencia bibliográfica.
+* 14839ab (origin/main, origin/HEAD, main) Se realiza un commit con los cambios del README.txt para cambiar de rama
+* 59151c3 Añadido capítulo 4.
+* e2c45b5 Añadido el índice
+* 60dd9ad Se crea el indice.
+* 2492158 Añadido capítulo 3
+* a9c6e13 Añadido capítulo 2
+* 850c7cf Añadido capítulo 1.
+* 26e6745 Initial commit
+```
+
+## Ejercicio 8
+
+```code
+
+```
+
+```code
+
+```
+
+```code
+
+```
+
+```code
 
 ```
 
