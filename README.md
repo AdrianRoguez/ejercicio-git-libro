@@ -284,6 +284,31 @@ git log --graph --all --oneline
 ## Ejercicio 9
 
 ```code
+git branch bibliografia
+```
+
+```code
+git checkout bibliografia
+Cambiado a rama 'bibliografia'
+```
+
+```code
+cat bibliografia.txt 
+Chacon, S. and Straub, B. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+```
+
+```code
+git add .
+```
+
+```code
+git commit -a -m "Añadida nueva referencia bibliográfica."
+[bibliografia e539a91] Añadida nueva referencia bibliográfica.
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+```
+
+```code
 
 ```
 
