@@ -122,7 +122,7 @@ Date:   Thu Oct 10 17:55:55 2024 +0100
     Initial commit
 ```
 
-Ejercicio 4
+## Ejercicio 4
 
 ```code
 cat capitulos/índice.txt 
@@ -134,11 +134,15 @@ git add .
 ```
 
 ```code
-
+git commit -m "Se crea el indice."
+[main 60dd9ad] Se crea el indice.
+ 2 files changed, 67 insertions(+)
+ create mode 100644 "capitulos/\303\255ndice.txt"
 ```
 
 ```code
-
+git annotate índice.txt
+60dd9adc        (AdrianRoguez   2024-10-13 00:19:57 +0100       1)Indice de los cápitulos, con conceptos avanzados de git
 ```
 
 ```code
