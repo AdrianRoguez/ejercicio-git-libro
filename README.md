@@ -227,8 +227,61 @@ git log --graph --all --oneline
 ## Ejercicio 8
 
 ```code
-
+git checkout main 
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
 ```
+
+```code
+git merge bibliografia
+Merge made by the 'ort' strategy.
+ bibliografia.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 bibliografia.txt
+```
+
+```code
+git log --graph --all --oneline
+*   8d601d4 (HEAD -> main) Merge branch 'bibliografia'
+|\  
+| * 7a3fff9 (bibliografia) Se vuelve a realiza un commit con los cambios del README.txt para cambiar de rama
+| * 72661bc Añadida primera referencia bibliográfica.
+* | 7c9599a (origin/main, origin/HEAD) Perdiendo la cordura
+|/  
+* 14839ab Se realiza un commit con los cambios del README.txt para cambiar de rama
+* 59151c3 Añadido capítulo 4.
+* e2c45b5 Añadido el índice
+* 60dd9ad Se crea el indice.
+* 2492158 Añadido capítulo 3
+* a9c6e13 Añadido capítulo 2
+* 850c7cf Añadido capítulo 1.
+* 26e6745 Initial commit
+```
+
+```code
+git branch -d bibliografia
+Eliminada la rama bibliografia (era 7a3fff9).
+```
+
+```code
+git log --graph --all --oneline
+*   8d601d4 (HEAD -> main) Merge branch 'bibliografia'
+|\  
+| * 7a3fff9 Se vuelve a realiza un commit con los cambios del README.txt para cambiar de rama
+| * 72661bc Añadida primera referencia bibliográfica.
+* | 7c9599a (origin/main, origin/HEAD) Perdiendo la cordura
+|/  
+* 14839ab Se realiza un commit con los cambios del README.txt para cambiar de rama
+* 59151c3 Añadido capítulo 4.
+* e2c45b5 Añadido el índice
+* 60dd9ad Se crea el indice.
+* 2492158 Añadido capítulo 3
+* a9c6e13 Añadido capítulo 2
+* 850c7cf Añadido capítulo 1.
+* 26e6745 Initial commit
+```
+
+## Ejercicio 9
 
 ```code
 
