@@ -309,29 +309,63 @@ git commit -a -m "Añadida nueva referencia bibliográfica."
 ```
 
 ```code
-
+git checkout main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
 ```
 
 ```code
-
+cat bibliografia.txt 
+Chacon, S. and Straub, B. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
 ```
 
 ```code
-
+git commit -a -m "Añadida nueva referencia bibliográfica."
+[main 7274c06] Añadida nueva referencia bibliográfica.
+ 1 file changed, 2 insertions(+)
 ```
 
 ```code
-
+git merge bibliografia
+Auto-fusionando bibliografia.txt
+CONFLICTO (contenido): Conflicto de fusión en bibliografia.txt
+Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
 ```
 
 ```code
-
+cat bibliografia.txt 
+Chacon, S. and Straub, B. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
 ```
 
 ```code
-
+git commit -a -m "Solucionado conflicto bibliografía."
+[main 65e6be2] Solucionado conflicto bibliografía.
 ```
 
 ```code
-
+git log --graph --all --oneline
+*   65e6be2 (HEAD -> main) Solucionado conflicto bibliografía.
+|\  
+| * 16bab06 (origin/bibliografia, bibliografia) Se realiza otro commit para cambiar de rama en el Ejercicio 9
+| * e539a91 Añadida nueva referencia bibliográfica.
+* | 7274c06 Añadida nueva referencia bibliográfica.
+|/  
+* 928f6e6 (origin/main, origin/HEAD) Se realiza un commit antes de comenzar el Ejercicio 9
+*   8d601d4 Merge branch 'bibliografia'
+|\  
+| * 7a3fff9 Se vuelve a realiza un commit con los cambios del README.txt para cambiar de rama
+| * 72661bc Añadida primera referencia bibliográfica.
+* | 7c9599a Perdiendo la cordura
+|/  
+* 14839ab Se realiza un commit con los cambios del README.txt para cambiar de rama
+* 59151c3 Añadido capítulo 4.
+* e2c45b5 Añadido el índice
+* 60dd9ad Se crea el indice.
+* 2492158 Añadido capítulo 3
+* a9c6e13 Añadido capítulo 2
+* 850c7cf Añadido capítulo 1.
+* 26e6745 Initial commit
 ```
