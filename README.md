@@ -167,16 +167,28 @@ En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.
 ```
 
 ```code
-
+git add .
 ```
 
 ```code
-
+git commit -m "Añadido capítulo 4."
+[main 59151c3] Añadido capítulo 4.
+ 2 files changed, 42 insertions(+)
+ create mode 100644 capitulos/capitulo4.txt
 ```
 
 ```code
-
+git log --graph --all --oneline
+* 59151c3 (HEAD -> main) Añadido capítulo 4.
+* e2c45b5 (bibliografia) Añadido el índice
+* 60dd9ad (origin/main, origin/HEAD) Se crea el indice.
+* 2492158 Añadido capítulo 3
+* a9c6e13 Añadido capítulo 2
+* 850c7cf Añadido capítulo 1.
+* 26e6745 Initial commit
 ```
+
+## Ejercicio 7
 
 ```code
 
