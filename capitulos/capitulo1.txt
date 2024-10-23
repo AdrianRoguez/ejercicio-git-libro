@@ -1,2 +1,1 @@
 Git es un sistema de control de versiones ideado por Linus Torvalds.
-puedes agregar una línea de texto en el archivo capitulo1.txt
